@@ -31,4 +31,9 @@ class ArticlesControllerTest < ActionDispatch::IntegrationTest
 
     assert_redirected_to article_path(Article.last)
   end
+
+  test "should get edit" do
+    get edit_article_url(@article)
+    assert_response :success
+  end
 end
