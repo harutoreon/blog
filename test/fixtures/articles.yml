@@ -1,0 +1,4 @@
+first_article:
+  title: Rails is Awesome!
+  body: It really is.
+  status: public
